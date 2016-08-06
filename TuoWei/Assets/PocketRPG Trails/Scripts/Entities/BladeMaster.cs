@@ -60,6 +60,7 @@ public class BladeMaster : MonoBehaviour
 		animationController = GetComponent<AnimationController> ();
 		transform.position = Vector3.zero;
 	}
+
 	protected void Start ()
 	{
 		animationController.AddTrail (leftSwipe); // Adds the trails to the animationController which will run them
